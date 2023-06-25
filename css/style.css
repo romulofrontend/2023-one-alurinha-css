@@ -205,6 +205,7 @@ body {
 	border: none;
 	height: 50px;
 	font-size: .8em;
+  font-weight: bold;
 	outline: none;
   width: 100%;
 }
