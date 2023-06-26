@@ -17,7 +17,8 @@ body {
 	font-weight: bold;
 	font-size: 2em;
 	margin-bottom: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .cabecalhoPrincipal-titulo a {
@@ -34,7 +35,6 @@ body {
 	transition: .5s;
 	display: block;
   cursor: pointer;
-  text-align: center;
 	border-bottom: 1px solid #9799A6;
 }
 
@@ -194,7 +194,6 @@ body {
 .videoSobre-sobre {
 	font-size: 1.3em;
 	line-height: 2;
-  text-align: center;
 }
 
 .videoSobre-button {
@@ -207,7 +206,6 @@ body {
 	font-size: .8em;
   font-weight: bold;
 	outline: none;
-  width: 100%;
 }
 
 .rodapePrincipal-contatoForm-legend {
