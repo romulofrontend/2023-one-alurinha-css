@@ -333,6 +333,26 @@ body {
 	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
 		margin-left: 0;
 	}
+
+  .videoSobre-video {
+    width: 55%;
+  }
+
+  .videoSobre .container {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .videoSobre-sobre {
+    margin-left: 0;
+    width: 40%;
+    justify-content: flex-start;
+    height: unset;
+  }
+
+  .videoSobre-sobre-list {
+    height: 215px;
+  }
   
   .rodapePrincipal-patrocinadores .container{
     display: flex;
@@ -343,8 +363,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-}
-
+  }
 }
 
 @media(min-width: 1000px) {
@@ -368,9 +387,6 @@ body {
 		margin-left: 0;
 	}
 
-	.videoSobre-sobre {
-		margin-left: 1.5em;
-	}
 
 }
 
