@@ -194,31 +194,44 @@ body {
 .videoSobre {
 	background-color: #5E9EDC;
 	padding: 25px 0;
+}
 
+.videoSobre .container {
+  color: #FFF;
 }
 
 .videoSobre-video {
 	max-width: 100%;
 }
 
-.videoSobre .container {
-	color: #FFF;
+.videoSobre-sobre {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  font-size: 1.3em;
+  line-height: 2;
+  height: 330px;
 }
 
 .videoSobre-sobre-title {
 	font-size: 1.2em;
 	font-weight: bolder;
+  text-align: center;
 }
 
-.videoSobre-sobre {
-	font-size: 1.3em;
-	line-height: 2;
+.videoSobre-sobre-list {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  text-align: center;
+  height: 200px;
 }
+	
+
 
 .videoSobre-button {
 	border-radius: 8px;
 	background-color: #ec6e5a;
-	display: block;
 	color: #FFF;
 	border: none;
 	height: 50px;
