@@ -214,6 +214,11 @@ body {
 	margin-bottom: 10px;
 }
 
+.rodapePrincipal-contatoForm-fieldset{
+  display: flex;
+  justify-content: center;
+}
+
 @media(min-width: 769px) {
 
 	.container {
