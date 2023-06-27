@@ -155,9 +155,36 @@ body {
 	padding: 20px 0;
 }
 
+.rodapePrincipal-patrocinadores-list {
+	display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.rodapePrincipal-patrocinadores-list li{
+  display: flex;
+  justify-content: center;
+}
+
+.rodapePrincipal-patrocinadores-list-link{
+  display: flex;
+  justify-content: center;
+}
+
+.rodapePrincipal-patrocinadores-list-link img{
+  max-width: 80%;
+}
+
 .rodapePrincipal-contatoForm {
 	margin-top: 20px;
 	text-align: center;
+}
+
+.rodapePrincipal-contatoForm fieldset {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  height: 75px;
 }
 
 .rodapePrincipal-contatoForm label[for=email-contato] {
@@ -240,10 +267,6 @@ body {
 	font-size: .8em;
   font-weight: bold;
 	outline: none;
-}
-
-.rodapePrincipal-contatoForm-legend {
-	margin-bottom: 10px;
 }
 
 .rodapePrincipal-contatoForm-fieldset{
