@@ -198,6 +198,8 @@ body {
 
 .videoSobre .container {
   color: #FFF;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .videoSobre-video {
