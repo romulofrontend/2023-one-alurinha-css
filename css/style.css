@@ -28,12 +28,18 @@ body {
 
 .cabecalhoPrincipal-nav{
   display: flex;
-  flex-direction: column;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  height: 225px;
 }
 
-.cabecalhoPrincipal-nav-link {
-	padding: 10px;
-	margin-bottom: 10px;
+.cabecalhoPrincipal-nav :nth-child(1){order:2}
+.cabecalhoPrincipal-nav :nth-child(2){order:3}
+.cabecalhoPrincipal-nav :nth-child(3){order:4}
+.cabecalhoPrincipal-nav :nth-child(4){order:5}
+.cabecalhoPrincipal-nav-link-app{order: 1}
+
+.cabecalhoPrincipal-nav-link {	
 	color: #9799A6;
 	background-color: #FFF;
 	text-decoration: none;
@@ -41,6 +47,8 @@ body {
   cursor: pointer;
 	border-bottom: 1px solid #9799A6;
   text-align: center;
+  padding: 10px;
+
 }
 
 .conteudoPrincipal {
