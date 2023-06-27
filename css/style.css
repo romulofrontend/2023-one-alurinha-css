@@ -333,6 +333,17 @@ body {
 	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
 		margin-left: 0;
 	}
+  
+  .rodapePrincipal-patrocinadores .container{
+    display: flex;
+  }
+
+  .rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
 
 }
 
