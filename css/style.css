@@ -26,6 +26,11 @@ body {
 	color: inherit;
 }
 
+.cabecalhoPrincipal-nav{
+  display: flex;
+  flex-direction: column;
+}
+
 .cabecalhoPrincipal-nav-link {
 	padding: 10px;
 	margin-bottom: 10px;
@@ -33,9 +38,9 @@ body {
 	background-color: #FFF;
 	text-decoration: none;
 	transition: .5s;
-	display: block;
   cursor: pointer;
 	border-bottom: 1px solid #9799A6;
+  text-align: center;
 }
 
 .conteudoPrincipal {
