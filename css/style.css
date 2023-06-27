@@ -102,14 +102,16 @@ body {
 	color: #FFF;
 }
 
+.rodapePrincipal-navMap-list{
+  display: flex;
+  flex-direction: column;
+}
+
 .rodapePrincipal-navMap-link {
 	text-decoration: none;
 	color: #FFF;
 	margin-top: 10px;
-}
-
-.rodapePrincipal-navMap-link {
-	font-size: .9em;
+  font-size: .9em;
 }
 
 .navmap-list-title {
